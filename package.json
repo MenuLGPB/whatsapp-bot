@@ -1,0 +1,20 @@
+{
+  "name": "chat-bot-whatsapp",
+  "version": "1.0.0",
+  "description": "Chatbot WhatsApp",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "bot",
+    "whatsapp"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@bot-whatsapp/bot": "^0.1.30",
+    "@bot-whatsapp/provider-baileys": "^0.1.0",
+    "@bot-whatsapp/database-memory": "^0.1.0"
+  }
+}
